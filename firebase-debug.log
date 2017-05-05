@@ -1,0 +1,95 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/nick/.nvm/v6.9.2/bin/node /Users/nick/.nvm/v6.9.2/bin/firebase serve
+[debug] CLI Version:  3.7.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.2
+[debug] Time:         Fri May 05 2017 13:01:17 GMT+0300 (EEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-chat-2d437  
+ Fri May 05 2017 13:01:17 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-chat-2d437/tokens  
+ Fri May 05 2017 13:01:18 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/nick/WebstormProjects/firebase-apps/test-app
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-chat-2d437  
+ Fri May 05 2017 13:01:19 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214540333549/clients/_:getWebAppConfig  
+ Fri May 05 2017 13:01:20 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/Users/nick/.nvm/v6.9.2/lib/node_modules/firebase-tools/commands/serve.js:37:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/nick/.nvm/v6.9.2/bin/node /Users/nick/.nvm/v6.9.2/bin/firebase serve
+[debug] CLI Version:  3.7.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.2
+[debug] Time:         Fri May 05 2017 13:08:28 GMT+0300 (EEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-chat-2d437  
+ Fri May 05 2017 13:08:28 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-chat-2d437/tokens  
+ Fri May 05 2017 13:08:30 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/nick/WebstormProjects/firebase-apps/test-app
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-chat-2d437  
+ Fri May 05 2017 13:08:31 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214540333549/clients/_:getWebAppConfig  
+ Fri May 05 2017 13:08:32 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/Users/nick/.nvm/v6.9.2/lib/node_modules/firebase-tools/commands/serve.js:37:17)
+    at Server.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:185:7)
+    at emitListeningNT (net.js:1285:10)
+    at _combinedTickCallback (internal/process/next_tick.js:71:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/nick/.nvm/v6.9.2/bin/node /Users/nick/.nvm/v6.9.2/bin/firebase serve
+[debug] CLI Version:  3.7.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.2
+[debug] Time:         Fri May 05 2017 13:09:49 GMT+0300 (EEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-chat-2d437  
+ Fri May 05 2017 13:09:49 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/test-chat-2d437/tokens  
+ Fri May 05 2017 13:09:51 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/nick/WebstormProjects/firebase-apps/test-app
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-chat-2d437  
+ Fri May 05 2017 13:09:53 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214540333549/clients/_:getWebAppConfig  
+ Fri May 05 2017 13:09:54 GMT+0300 (EEST)
+[debug] <<< HTTP RESPONSE 200
+[info] Public Directory: ./
+[info] 
+[info] Server listening at: http://localhost:5000
