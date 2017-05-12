@@ -10,9 +10,14 @@ export class ConfigureChat {
         this.loadBootsrap();
     }
 
+    loadStyles() {
+         require("../../assets/styles/main.css");
+    }
+
     loadBootsrap() {
+        console.log(this.options);
         if (this.options.loadBootsrap) {
-            require("../../assets/styles/main.css");
+            require("bootstrap/dist/css/bootstrap.css");
         }
     }
 }
