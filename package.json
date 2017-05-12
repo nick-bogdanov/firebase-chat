@@ -14,7 +14,12 @@
     "node-libs-browser": "^2.0.0",
     "webpack": "^2.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm install",
