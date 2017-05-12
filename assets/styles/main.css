@@ -269,7 +269,7 @@
 .chat-send i.send {
   display: block;
   width: 19px; height: 16px;
-  background: url('../img/send.png');
+  background: url('/img/send.png');
 }
   .attach {
     position: absolute;
