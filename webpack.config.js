@@ -3,6 +3,7 @@ module.exports = {
     output: {
         filename: "./dist/main.js"
     },
+    watch: true,
     module: {
         loaders: [{
             exclude: /node_modules/,
@@ -12,6 +13,7 @@ module.exports = {
             }
         }]
     },
+    devtool: 'source-map',
     resolve: {
         extensions: ['.js']
     },

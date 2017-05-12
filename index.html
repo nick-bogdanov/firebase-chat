@@ -5,10 +5,6 @@
     <meta charset="UTF-8">
     <title>Firebase Chat</title>
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-messaging.js"></script>
 </head>
 
 <body>
@@ -17,33 +13,8 @@
     <button id="post">Post</button><br/>
     <div id="results"></div>
 
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyCk5V0u3RFGahoe6JS2_HKHTwoLSgF1xPQ",
-            authDomain: "test-chat-2d437.firebaseapp.com",
-            databaseURL: "https://test-chat-2d437.firebaseio.com",
-            projectId: "test-chat-2d437",
-            storageBucket: "test-chat-2d437.appspot.com",
-            messagingSenderId: "214540333549"
-        };
-        firebase.initializeApp(config);
-    </script>
 
-    <script>
-        const messaging = firebase.messaging();
-
-        messaging.requestPermission()
-            .then(function () {
-                console.log('Notification permission granted.');
-                // TODO(developer): Retrieve an Instance ID token for use with FCM.
-                // ...
-            })
-            .catch(function (err) {
-                console.log('Unable to get permission to notify.', err);
-            });
-    </script>
-
+    <script src="./dist/main.js"></script>
 </body>
 
 </html>

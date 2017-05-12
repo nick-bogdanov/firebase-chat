@@ -1,5 +1,4 @@
-var chat = require('./chat/chat');
+import {Chat} from './chat/chat';
 
-console.log(chat);
+const chat = new Chat();
 
-var chat2 = new chat();
