@@ -1,3 +1,4 @@
 export const defaultConfig = {
-    loadBootsrap: true
+    loadBootsrap: true,
+    customStyles: false
 };
