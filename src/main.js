@@ -1,4 +1,12 @@
-import {Chat} from './chat/chat';
+import { Chat } from './chat/Chat.core';
 
-const chat = new Chat();
+window.chat = new Chat();
+
+// window.chat.init().createUser('kololo@gmail.com', 'qwerty').then((data) => {
+//     console.log('data: ', data);
+// }).catch((err) => {
+//     console.log('err: ', err);
+// });
+
+window.chat.init();
 
