@@ -14,9 +14,10 @@ Init chat with firebase config
     projectId: projectId,
     storageBucket: storageBucket,
     messagingSenderId: messagingSenderId
-}`
+}
 
-`window.chat.init(config);`
+window.chat.init(config);
+`
 
 
 Create a new user. Make shure you gave permissions in firebase console to allow register via email and password.
