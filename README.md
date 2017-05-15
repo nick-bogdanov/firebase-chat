@@ -8,9 +8,9 @@ Init chat with firebase config
 
 
 `const config = {
-    apiKey: apiKey,
-    authDomain: authDomain,
-    databaseURL: databaseURL,
+    apiKey: apiKey, \n
+    authDomain: authDomain, \n
+    databaseURL: databaseURL, \n
     projectId: projectId,
     storageBucket: storageBucket,
     messagingSenderId: messagingSenderId
