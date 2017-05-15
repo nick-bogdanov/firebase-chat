@@ -6,15 +6,15 @@ Create an instance of chat
 
 Init chat with firebase config
 
-``
-`const config = {`
-    `apiKey: apiKey,`
-    `authDomain: authDomain,`
-    `databaseURL: databaseURL,`
-    `projectId: projectId,`
-    `storageBucket: storageBucket,`
-    `messagingSenderId: messagingSenderId`
-`}`
+
+`const config = {
+    apiKey: apiKey,
+    authDomain: authDomain,
+    databaseURL: databaseURL,
+    projectId: projectId,
+    storageBucket: storageBucket,
+    messagingSenderId: messagingSenderId
+}`
 
 `window.chat.init(config);`
 
