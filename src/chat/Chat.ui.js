@@ -8,10 +8,15 @@ export class ConfigureChat {
 
     init() {
         this.loadBootsrap();
+        this.loadStyles();
     }
 
     loadStyles() {
-         require("../../assets/styles/main.css");
+        if (this.options.customStyles) {
+            require(this.options.customStyles);
+        }else{
+            require("../../assets/styles/main.css");
+        }
     }
 
     loadBootsrap() {
