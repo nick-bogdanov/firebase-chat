@@ -1,4 +1,8 @@
 export const defaultConfig = {
     loadBootsrap: true,
-    customStyles: false
+    customStyles: false,
+    chatWrapper: '#chat-wrapper',
+    search: true,
+    searchId: 'search-messages',
+    usersChatId: 'users-found'
 };
