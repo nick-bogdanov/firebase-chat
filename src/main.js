@@ -8,5 +8,13 @@ window.chat = new Chat();
 //     console.log('err: ', err);
 // });
 
+// window.chat.init().signIn('kololo@gmail.com', 'qwerty').then((res) => {
+//     console.log('res: ', res);
+// }).catch((err) => {
+//     console.log(err);
+// });
+
+// window.chat.init().checkSigned();
+
 window.chat.init();
 

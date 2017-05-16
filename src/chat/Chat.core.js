@@ -16,15 +16,32 @@ export class Chat {
         this.auth = firebase.auth();
         this.database = firebase.database();
 
+        this.auth.onAuthStateChanged(this.onAuthStateChanged.bind(this));
+
         return this;
     }
 
-    createUser(login, pass) {
-        if (login && pass) {
-            return firebase.auth().createUserWithEmailAndPassword(login, pass);
-        } else {
-            return Promise.reject('User hasn\'t been authorized. Missing credentials');
+    createUser(email, password) {
+        return firebase.auth().createUserWithEmailAndPassword(email, password);
+    }
+
+    onAuthStateChanged() {
+        console.log('changed');
+        this.checkSigned();
+    }
+
+    signIn(email, password) {
+        const provider = firebase.auth.EmailAuthProvider.credential(email, password);
+        return firebase.auth().signInWithCredential(provider);
+    }
+
+    checkSigned() {
+        if (this.auth.currentUser) {
+            console.log('Signed In');
+            return true;
         }
+        console.log('Not Signed In');
+        return false;
     }
 
 }
